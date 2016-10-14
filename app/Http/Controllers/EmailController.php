@@ -20,6 +20,6 @@ class EmailController extends Controller
     		$message->from('rojan@nayloroutsourcing.com','Rojan Timbas');
     		$message->to('f2790e5c4e-90dc1f@inbox.mailtrap.io');
     	});
-    	return response()->json(['message' => 'Request completed']);
+    	return response()->json(['message' => 'Request ggg']);
 	}
 }
